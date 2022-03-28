@@ -3,7 +3,6 @@
   min-height: 18px;
   margin: 0;
   padding: 92px 0 0;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,7 +13,7 @@
   .footer {
     width: calc(100% - 24px*2);
     padding: 88px 0 0;
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -22,8 +21,7 @@
     width: 100%;
     min-height: 310px;
     padding: 64px 0 0;
-
     flex-direction: column;
     gap: 32px;
-  } 
+  }
 }

@@ -6,11 +6,11 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding-top: 56px; 
+  padding-top: 56px;
 }
 
 @media screen and (max-width: 1280px) {
   .content {
-    padding-top: 48px; 
+    padding-top: 48px;
   }
 }

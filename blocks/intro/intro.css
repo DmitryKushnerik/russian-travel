@@ -3,14 +3,13 @@
   min-height: 429px;
   margin: 0;
   padding: 0 0 0 148px;
-
   align-self: start;
 }
 
 @media screen and (max-width: 1280px) {
   .intro {
     padding: 0 0 0 48px;
-  }  
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,7 +17,7 @@
     max-width: 720px;
     padding: 0;
     align-self: center;
-  }  
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -26,5 +25,5 @@
     max-width: 288px;
     min-height: 754px;
     align-self: center;
-  }  
+  }
 }
