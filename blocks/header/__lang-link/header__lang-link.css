@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     min-height: 20px;
     padding: 0 0 8px;

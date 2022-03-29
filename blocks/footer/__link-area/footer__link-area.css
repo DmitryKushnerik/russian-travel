@@ -10,7 +10,7 @@
   line-height: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__link-area {
     padding: 0 16px;
     display: flex;
