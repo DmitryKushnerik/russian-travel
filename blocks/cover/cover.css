@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 1184px;
-  min-height: 740px;
+  width: 100%;
+  max-width: 1184px;
   background-image: url(../../images/cover_bg.jpg);
   background-position: center;
   background-size: cover;
@@ -14,36 +14,12 @@
   content: "";
   background: #2A2C2F;
   opacity: 0.3;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  display: block;
+  width: 100%;
+  padding-bottom: 62.5%;
   transition: opacity 1s;
 }
 
 .cover:hover::before {
   opacity: 0.8;
-}
-
-@media screen and (max-width: 1279px) {
-  .cover {
-    width: 100%;
-    /*1024px;*/
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover {
-    /*width: 768px;*/
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover {
-    /*width: 320px;*/
-    min-height: 200px;
-  }
 }
